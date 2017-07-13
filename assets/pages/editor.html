@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+    <link href="https://fonts.googleapis.com/css?family=Bellefair|Droid+Sans+Mono|Lato|Lobster|Nunito|Open+Sans|Princess+Sofia|Quicksand|Rasa|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../css/editor.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Text Editor -->
+    <div class="container">
+
+      <!-- Complete editor with text and widgets -->
+      <div class="full-editor">
+        <div class="menu">
+          <h2>Menu</h2>
+          <!-- EDITOR ICONS -->
+
+          <!-- FONT FAMILY -->
+          <select name="font" id="js--font-family">
+            <option value="roboto">Roboto</option>
+            <option value="lato">Lato</option>
+            <option value="bellefair">Bellefair</option>
+            <option value="open sans">Open Sans</option>
+            <option value="nunito">Nunito</option>
+            <option value="rasa">Rasa</option>
+            <option value="lobster">Lobster</option>
+            <option value="quicksand">Quicksand</option>
+            <option value="droid sans mono">Droid Sans Mono</option>
+            <option value="princess sofia">Princess Sofia</option>
+          </select>
+
+          <!-- FONT SIZE -->
+          <input type="number" name="font-size" id="js--font-size" value="12" />
+
+          <!-- BOLD -->
+          <i id="js--bold" class="fa fa-bold" aria-hidden="true"></i>
+
+          <!-- Italics -->
+          <i id="js--italic" class="fa fa-italic" aria-hidden="true"></i>
+
+          <!-- Underline -->
+          <i id="js--underline" class="fa fa-underline" aria-hidden="true"></i>
+        </div>
+        <textarea class="editor" name="editor" id="js--editor" rows="45" cols="100"></textarea>
+      </div> <!--/ full-editor -->
+    </div>
+    <!-- End of Text editor -->
+
+    <script src="https://use.fontawesome.com/aab8b54198.js"></script>
+    <script src="../js/editor.js"></script>
+  </body>
+
+</html>
