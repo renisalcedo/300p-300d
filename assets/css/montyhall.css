@@ -1,0 +1,28 @@
+/*--------------------------------*/
+/*------ SETUP ADJUSTMENT --------*/
+/*--------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  background-color: #eee;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------*/
+/*----- REUSABLE COMPONENTS ------*/
+/*--------------------------------*/
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
