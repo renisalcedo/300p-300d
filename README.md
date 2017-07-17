@@ -11,7 +11,7 @@
 
 
 ## Projects
-[DAY 1](https://renisalcedo.github.io/300p-300d/)
-[DAY 2](https://renisalcedo.github.io/300p-300d/text-editor)
-[DAY 3](https://renisalcedo.github.io/300p-300d/form)
-[DAY 4](https://renisalcedo.github.io/300p-300d/monty-hall)
+1. [DAY 1](https://renisalcedo.github.io/300p-300d/)
+2. [DAY 2](https://renisalcedo.github.io/300p-300d/text-editor)
+3. [DAY 3](https://renisalcedo.github.io/300p-300d/form)
+4. [DAY 4](https://renisalcedo.github.io/300p-300d/monty-hall)
