@@ -6,7 +6,7 @@ var previous;
 var doors = [door1, door2, door3];
 var random = 0;
 
-var doorPrizes = ["https://www.youtube.com/watch?v=DRMBxnxWiNQ", "../img/congratulation.jpg", "https://www.youtube.com/watch?v=DRMBxnxWiNQ"];
+var doorPrizes = ["https://www.youtube.com/watch?v=DRMBxnxWiNQ", "assets/img/congratulation.jpg", "https://www.youtube.com/watch?v=DRMBxnxWiNQ"];
 
 for(var i = 0; i < doorPrizes.length; i++) {
   random = Math.floor(Math.random()*2);
