@@ -15,3 +15,6 @@
 2. [DAY 2](https://renisalcedo.github.io/300p-300d/text-editor)
 3. [DAY 3](https://renisalcedo.github.io/300p-300d/form)
 4. [DAY 4](https://renisalcedo.github.io/300p-300d/monty-hall)
+5. [DAY 5](https://renisalcedo.github.io/300p-300d/robot/index.html)
+6. [DAY 6](https://renisalcedo.github.io/300p-300d/todo-list)
+7. [DAY 7](https://renisalcedo.github.io/300p-300d/thekey)
