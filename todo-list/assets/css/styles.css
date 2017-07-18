@@ -1,0 +1,77 @@
+/* ---------------------------------- */
+/* ------- SETUP ADJUSTMENTS -------- */
+/* ---------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #5bc0de;
+  font-size: 100%;
+  font-weight: 300;
+  font-family: 'lato', arial;
+}
+
+h1 {
+  font-size: 300%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  color: #212121;
+}
+
+/* ---------------------------------- */
+/* ------ REUSABLE COMPONENTS ------- */
+/* ---------------------------------- */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.text-primary {
+  color:  #333;
+}
+
+.btn-warning {
+  background-color:  #f0ad4e;
+  padding: 4px;
+  border-radius: 10px;
+  color: #222;
+  font-weight: bold;
+}
+/* ---------------------------------- */
+/* ----------- TODO LIST ------------ */
+/* ---------------------------------- */
+.todo-list {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.todo-list ul {
+  list-style: none;
+}
+
+.todo-list li {
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #5cb85c;
+  margin: 20px auto;
+  padding: 5px;
+  width: 20%;
+  border-radius: 10%;
+}
+
+i.del {
+  float: right;
+  background-color: #d9534f;
+  border-radius: 100%;
+  padding: 1%;
+  transition: background-color .7s;
+}
+
+i.del:hover {
+  background-color: #777;
+}

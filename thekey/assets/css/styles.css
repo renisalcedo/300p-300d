@@ -1,0 +1,43 @@
+/* ------------------------ */
+/* --- SETUP ADJUSTMENTS -- */
+/* ------------------------ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-size: 100%;
+  font-family: 'Lato', arial;
+  color: #555;
+  background-color: #5bc0de;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+/* -------------------------- */
+/* --- REUSABLE COMPONENTS -- */
+/* -------------------------- */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* ---------------- */
+/* --- KEY CODES -- */
+/* ---------------- */
+.key-box {
+  background-color: #f0ad4e;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}

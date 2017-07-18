@@ -4,31 +4,32 @@
     <meta charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TODO List</title>
-    <link rel="stylesheet" href="../css/todo.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
   </head>
   <body>
     <div class="container">
       <div id="itemModule" class="todo-list">
-        <h1>Todo List</h1>
+        <h1 class="text-primary">Todo List</h1>
 
         <input placeholder="item" type="text">
-        <button id="addItem">Add Item</button>
+        <button id="addItem" class="btn-warning">Add Item</button>
 
         <ul id="item">
           <script id="item-template" type="text/template">
-            {{#people}}
+            {{#item}}
               <li>
                 <span>{{.}}</span>
-                <i class="del">X</i>
+                <i class="del fa fa-times" aria-hidden="true"></i>
               </li>
-            {{/people}}
+            {{/item}}
           </script>
         </ul>
       </div>
     </div>
-    <script src="../../vendor/js/jquery-3.2.1.min.js"></script>
-    <script src="../../vendor/js/mustache.min.js"></script>
-    <script src="../js/todo.js"></script>
+    <script src="https://use.fontawesome.com/aab8b54198.js"></script>
+    <script src="../vendor/js/jquery-3.2.1.min.js"></script>
+    <script src="../vendor/js/mustache.min.js"></script>
+    <script src="assets/js/action.js"></script>
   </body>
 
 </html>
