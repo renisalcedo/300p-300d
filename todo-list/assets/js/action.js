@@ -38,8 +38,15 @@
       this.item.splice(i,1);
       this.render();
     }
-
   };
 
-  item.init();
+  // Will delete the todo if enter pressed
+  document.addEventListener('keypress', function (e) {
+    var key = e.which || e.keyCode;
+    if (key === 13) {
+      $('#addItem').click();
+    }
+  });
+
+    item.init();
 })();
