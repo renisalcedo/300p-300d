@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
 body {
   width: 100%;
   background-color: #5bc0de;
@@ -16,6 +20,7 @@ body {
 }
 
 h1 {
+  margin: 0;
   font-size: 300%;
   word-spacing: 4px;
   letter-spacing: 1px;
@@ -32,6 +37,7 @@ h1 {
 
 .text-primary {
   color:  #333;
+  font-family: GillSans;
 }
 
 .btn-warning {
@@ -57,11 +63,14 @@ h1 {
 .todo-list li {
   font-weight: bold;
   font-size: 1em;
-  background-color: #5cb85c;
+  /*background-color: #5cb85c; not needed*/
   margin: 20px auto;
   padding: 5px;
-  width: 20%;
   border-radius: 10%;
+}
+
+.todo-list input.todo--input {
+  width: 30%;
 }
 
 i.del {
@@ -74,4 +83,14 @@ i.del {
 
 i.del:hover {
   background-color: #777;
+}
+
+div.card-panel {
+  width: 50%;
+  height: 6rem;
+  margin: 0 auto;
+}
+
+span.item-text.flow-text {
+  margin-right: 9rem;
 }

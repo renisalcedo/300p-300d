@@ -4,6 +4,9 @@
     <meta charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TODO List</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
   </head>
   <body>
@@ -11,25 +14,31 @@
       <div id="itemModule" class="todo-list">
         <h1 class="text-primary">Todo List</h1>
 
-        <input placeholder="item" type="text">
-        <button id="addItem" class="btn-warning">Add Item</button>
+        <!-- TODO LIST INPUT -->
+        <input placeholder="Talk with my counselor..." type="text" class="todo--input">
+        <button id="addItem" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i>Add Item</button>
 
-        <ul id="item">
+        <ul>
+          <!-- Template rendering -->
           <script id="item-template" type="text/template">
             {{#item}}
               <li>
-                <span>{{.}}</span>
-                <i class="del fa fa-times" aria-hidden="true"></i>
+                <div class="card-panel">
+                  <span class="item-text flow-text">{{.}}</span>
+                  <span class="btn-floating btn-large waves-effect waves-light red"><i class="del material-icons">close</i>
+                </div>
               </li>
             {{/item}}
           </script>
         </ul>
       </div>
     </div>
-    <script src="https://use.fontawesome.com/aab8b54198.js"></script>
+
     <script src="../vendor/js/jquery-3.2.1.min.js"></script>
     <script src="../vendor/js/mustache.min.js"></script>
     <script src="assets/js/action.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   </body>
 
 </html>
